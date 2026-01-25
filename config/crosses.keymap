@@ -69,7 +69,7 @@
 &trans  &trans  &trans  &trans     &trans     &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp HOME   &kp DELETE        &trans
 &trans  &trans  &trans  &trans     &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans          &msc SCRL_DOWN  &msc SCRL_UP  &trans     &trans            &studio_unlock
-                        &trans     &trans     &trans  &kt LG(SPACE)   &trans          &trans
+                        &trans     &trans     &trans  &kp LG(SPACE)   &trans          &trans
             >;
         };
 
