@@ -75,19 +75,11 @@
 
         hotkey_layer {
             bindings = <
-<<<<<<< HEAD
 &trans  &trans             &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(LG(SPACE))  &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LG(Z)          &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans             &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                &trans              &trans  &trans  &trans  &trans  &trans
-=======
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
->>>>>>> parent of 9e982657 (Updated crosses.keymap)
             >;
         };
 
