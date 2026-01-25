@@ -67,10 +67,10 @@
 
         f_layer {
             bindings = <
-&kp LC(LG(GRAVE))  &trans         &trans           &trans         &kp RC(PSCRN)   &kp LA(PSCRN)  &trans  &trans  &trans  &trans  &trans   &trans
-&kp LS(LG(GRAVE))  &kp LG(SPACE)  &kp LG(PG_DN)    &kp LG(PG_UP)  &trans          &trans         &trans  &trans  &trans  &trans  &trans   &trans
-&kp LG(T)          &kp LG(Z)      &kp LG(LEFT)     &kp LG(DOWN)   &kp LG(UP)      &kp LG(RIGHT)  &trans  &trans  &trans  &trans  &trans   &trans
-&kp LG(TAB)        &kp LC(LG(D))  &kp LC(LG(LEFT)) &kp LC(LG(RIGHT)) &kp LC(LG(F4))  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(LG(GRAVE))  &trans         &trans           &trans         &kp RC(PSCRN)      &kp LA(PSCRN)  &trans  &trans  &trans  &trans  &trans   &trans
+&kp LS(LG(GRAVE))  &kp LG(SPACE)  &kp LG(PG_DN)    &kp LG(PG_UP)  &trans             &trans         &trans  &trans  &trans  &trans  &trans   &trans
+&kp LG(T)          &kp LG(Z)      &kp LG(LEFT)     &kp LG(DOWN)   &kp LG(UP)         &kp LG(RIGHT)  &trans  &trans  &trans  &trans  &trans   &trans
+&kp LG(TAB)        &kp LC(LG(D))  &kp LC(LG(LEFT)) &kp LC(LG(RIGHT)) &kp LC(LG(F4))  &trans  &trans  &trans &trans  &trans  &trans  &trans
                                   &trans           &trans            &trans          &trans  &trans  &trans
             >;
         };
