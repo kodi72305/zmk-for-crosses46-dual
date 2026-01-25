@@ -102,7 +102,8 @@ events:
     found: null
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -140,7 +141,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find_package-v1"
     backtrace:
@@ -312,7 +312,8 @@ events:
     found: null
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -350,7 +351,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find_package-v1"
     backtrace:
@@ -410,7 +410,8 @@ events:
     found: null
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -448,7 +449,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -489,7 +489,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -527,7 +528,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -550,7 +550,8 @@ events:
     names:
       - "ccache"
     candidate_directories:
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -568,8 +569,6 @@ events:
       - "C:/Users/eveko/.local/bin/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/eveko/AppData/Local/PowerToys/DSCModules/"
       - "C:/Users/eveko/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -578,11 +577,13 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Users/eveko/AppData/Local/Python/bin/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/"
     searched_directories:
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/ccache.com"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/ccache.exe"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/ccache"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache"
       - "C:/Windows/System32/ccache.com"
       - "C:/Windows/System32/ccache.exe"
       - "C:/Windows/System32/ccache"
@@ -634,12 +635,6 @@ events:
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/ccache.com"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/ccache.exe"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/ccache"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ccache"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ccache"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/ccache.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/ccache.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/ccache"
@@ -664,13 +659,11 @@ events:
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/ccache.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/ccache.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/ccache"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/ccache.com"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/ccache.exe"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/ccache"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -708,7 +701,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -740,7 +732,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -778,7 +771,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -929,7 +921,8 @@ events:
     found: "D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/boards/arm/nice_nano/"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -967,7 +960,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find_package-v1"
     backtrace:
@@ -1035,7 +1027,8 @@ events:
       version: "1.0.0-beta1"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1073,7 +1066,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -1100,7 +1092,8 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/sbin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1118,8 +1111,6 @@ events:
       - "C:/Users/eveko/.local/bin/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/eveko/AppData/Local/PowerToys/DSCModules/"
       - "C:/Users/eveko/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1128,7 +1119,6 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Users/eveko/AppData/Local/Python/bin/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/"
     searched_directories:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/gperf.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/gperf.exe"
@@ -1139,9 +1129,12 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/gperf.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/gperf.exe"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/gperf"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/gperf.com"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/gperf.exe"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/gperf"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gperf.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gperf.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gperf"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gperf.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gperf.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gperf"
       - "C:/Windows/System32/gperf.com"
       - "C:/Windows/System32/gperf.exe"
       - "C:/Windows/System32/gperf"
@@ -1193,12 +1186,6 @@ events:
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/gperf.com"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/gperf.exe"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/gperf"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gperf.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gperf.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gperf"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gperf.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gperf.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gperf"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/gperf.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/gperf.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/gperf"
@@ -1223,15 +1210,13 @@ events:
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/gperf.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/gperf.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/gperf"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/gperf.com"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/gperf.exe"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/gperf"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1269,7 +1254,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -1296,7 +1280,8 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/sbin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1314,8 +1299,6 @@ events:
       - "C:/Users/eveko/.local/bin/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/eveko/AppData/Local/PowerToys/DSCModules/"
       - "C:/Users/eveko/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1324,7 +1307,6 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Users/eveko/AppData/Local/Python/bin/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/"
     searched_directories:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/openocd.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/openocd.exe"
@@ -1335,9 +1317,12 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/openocd.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/openocd.exe"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/openocd"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/openocd.com"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/openocd.exe"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/openocd"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/openocd.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/openocd.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/openocd"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/openocd.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/openocd.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/openocd"
       - "C:/Windows/System32/openocd.com"
       - "C:/Windows/System32/openocd.exe"
       - "C:/Windows/System32/openocd"
@@ -1389,12 +1374,6 @@ events:
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/openocd.com"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/openocd.exe"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/openocd"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/openocd.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/openocd.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/openocd"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/openocd.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/openocd.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/openocd"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/openocd.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/openocd.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/openocd"
@@ -1419,15 +1398,13 @@ events:
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/openocd.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/openocd.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/openocd"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/openocd.com"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/openocd.exe"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/openocd"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1465,7 +1442,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -1492,7 +1468,8 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/sbin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1510,8 +1487,6 @@ events:
       - "C:/Users/eveko/.local/bin/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/eveko/AppData/Local/PowerToys/DSCModules/"
       - "C:/Users/eveko/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1520,7 +1495,6 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Users/eveko/AppData/Local/Python/bin/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/"
     searched_directories:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/bossac.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/bossac.exe"
@@ -1531,9 +1505,12 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bossac.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bossac.exe"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bossac"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/bossac.com"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/bossac.exe"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/bossac"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bossac.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bossac.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bossac"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bossac.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bossac.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bossac"
       - "C:/Windows/System32/bossac.com"
       - "C:/Windows/System32/bossac.exe"
       - "C:/Windows/System32/bossac"
@@ -1585,12 +1562,6 @@ events:
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/bossac.com"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/bossac.exe"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/bossac"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bossac.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bossac.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bossac"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bossac.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bossac.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bossac"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/bossac.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/bossac.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/bossac"
@@ -1615,15 +1586,13 @@ events:
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/bossac.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/bossac.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/bossac"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/bossac.com"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/bossac.exe"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/bossac"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1661,7 +1630,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -1688,7 +1656,8 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/sbin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1706,8 +1675,6 @@ events:
       - "C:/Users/eveko/.local/bin/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/eveko/AppData/Local/PowerToys/DSCModules/"
       - "C:/Users/eveko/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1716,7 +1683,6 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Users/eveko/AppData/Local/Python/bin/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/"
     searched_directories:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/imgtool.exe"
@@ -1727,9 +1693,12 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/imgtool.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/imgtool.exe"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/imgtool"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/imgtool.com"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/imgtool.exe"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/imgtool"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool"
       - "C:/Windows/System32/imgtool.com"
       - "C:/Windows/System32/imgtool.exe"
       - "C:/Windows/System32/imgtool"
@@ -1781,12 +1750,6 @@ events:
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/imgtool.com"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/imgtool.exe"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/imgtool"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/imgtool"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/imgtool"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/imgtool.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/imgtool.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/imgtool"
@@ -1811,15 +1774,13 @@ events:
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/imgtool.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/imgtool.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/imgtool"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/imgtool.com"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/imgtool.exe"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/imgtool"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -1857,7 +1818,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find-v1"
     backtrace:
@@ -1884,7 +1844,8 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/sbin/"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1902,8 +1863,6 @@ events:
       - "C:/Users/eveko/.local/bin/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/eveko/AppData/Local/PowerToys/DSCModules/"
       - "C:/Users/eveko/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1912,7 +1871,6 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Users/eveko/AppData/Local/Python/bin/"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/"
     searched_directories:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/dtc.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/bin/dtc.exe"
@@ -1923,9 +1881,12 @@ events:
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/dtc.com"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/dtc.exe"
       - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr/dtc"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/dtc.com"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/dtc.exe"
-      - "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/dtc"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dtc.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dtc.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dtc"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dtc.com"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dtc.exe"
+      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dtc"
       - "C:/Windows/System32/dtc.com"
       - "C:/Windows/System32/dtc.exe"
       - "C:/Windows/System32/dtc"
@@ -1977,12 +1938,6 @@ events:
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/dtc.com"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/dtc.exe"
       - "C:/Users/eveko/AppData/Local/Programs/Python/Python314/dtc"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dtc.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dtc.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/dtc"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dtc.com"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dtc.exe"
-      - "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/dtc"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/dtc.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/dtc.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/dtc"
@@ -2007,15 +1962,13 @@ events:
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/dtc.com"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/dtc.exe"
       - "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/dtc"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/dtc.com"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/dtc.exe"
-      - "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/dtc"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
         - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -2053,7 +2006,6 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2100,11 +2052,19 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/ZephyrConfig.cmake"
+        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ZephyrConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/eveko/.codex/tmp/path/codex-arg0rEkEtz/zephyr-config.cmake"
+        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/zephyr-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2228,22 +2188,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ZephyrConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/zephyr-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ZephyrConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/eveko/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/zephyr-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "C:/Users/eveko/AppData/Local/Microsoft/WindowsApps/ZephyrConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2299,14 +2243,6 @@ events:
         path: "C:/Users/eveko/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/zephyr-config.cmake"
         mode: "config"
         reason: "no_exist"
-      -
-        path: "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/ZephyrConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/eveko/.vscode/extensions/openai.chatgpt-0.4.66-win32-x64/bin/windows-x86_64/zephyr-config.cmake"
-        mode: "config"
-        reason: "no_exist"
     found:
       path: "D:/Git/crosses/zmk-for-crosses/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
       mode: "config"
@@ -2315,7 +2251,8 @@ events:
       CMAKE_PREFIX_PATH:
         - "D:/Downloads/zephyr-sdk-1.0.0-beta1/hosttools/sysroots/AMD64-pokysdk-linux/usr"
       ENV{PATH}:
-        - "C:\\Users\\eveko\\.codex\\tmp\\path\\codex-arg0rEkEtz"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\eveko\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
         - "C:\\WINDOWS\\System32\\Wbem"
@@ -2353,5 +2290,4 @@ events:
         - "C:\\Program Files\\nodejs"
         - "C:\\Users\\eveko\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\eveko\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
-        - "c:\\Users\\eveko\\.vscode\\extensions\\openai.chatgpt-0.4.66-win32-x64\\bin\\windows-x86_64"
 ...
