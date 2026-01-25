@@ -75,11 +75,11 @@
 
         hotkey_layer {
             bindings = <
-&trans  &trans             &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(LG(SPACE))  &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(Z)          &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans              &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                               &trans              &trans  &trans  &trans  &trans  &trans
+&trans         &trans             &trans              &trans              &trans             &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(TILDE)  &kp LC(LG(SPACE))  &trans              &trans              &trans             &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(T)      &kp LG(Z)          &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)   &kp LG(RIGHT)   &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(TAB)    &trans             &kp LC(LG(D))       &kp LG(LC(LEFT))    &kp LG(LC(RIGHT))  &kp LG(LC(F4))  &trans  &trans  &trans  &trans  &trans  &trans
+                                                      &trans              &trans             &trans          &trans  &trans  &trans
             >;
         };
 
