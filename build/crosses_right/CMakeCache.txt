@@ -29,6 +29,9 @@ BOARD_DIR:PATH=D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/boards/arm/nice_nan
 //Support board extensions
 BOARD_EXTENSIONS:BOOL=ON
 
+//Path to a program.
+BOSSAC:FILEPATH=BOSSAC-NOTFOUND
+
 //Selected board
 CACHED_BOARD:STRING=nice_nano_v2
 
@@ -59,6 +62,9 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/Git/crosses/zmk-for-crosses46-dual/bu
 //No help, variable specified on the command line.
 CONFIG_ZMK_STUDIO:UNINITIALIZED=y
 
+//Path to a program
+DTC:FILEPATH=DTC-NOTFOUND
+
 //If desired, you can build the application using the DT configuration
 // settings specified in an alternate .overlay file using this
 // parameter. These settings will override the settings in the
@@ -66,14 +72,26 @@ CONFIG_ZMK_STUDIO:UNINITIALIZED=y
 // dts2.overlay"
 DTC_OVERLAY_FILE:STRING=D:/Git/crosses/zmk-for-crosses46-dual/gggw-zmk-keebs/boards/shields/crosses/crosses.keymap
 
+//Path to a program.
+GPERF:FILEPATH=GPERF-NOTFOUND
+
+//Path to a program.
+IMGTOOL:FILEPATH=IMGTOOL-NOTFOUND
+
 //Selected keymap file
 KEYMAP_FILE:STRING=D:/Git/crosses/zmk-for-crosses46-dual/gggw-zmk-keebs/boards/shields/crosses/crosses.keymap
+
+//Path to a program.
+OPENOCD:FILEPATH=OPENOCD-NOTFOUND
 
 //Selected shield
 SHIELD:STRING=crosses_right
 
 //Selected snippet
 SNIPPET:STRING=studio-rpc-usb-uart
+
+//Zephyr toolchain root
+TOOLCHAIN_ROOT:STRING=D:/Git/crosses/zmk-for-crosses46-dual/zephyr
 
 //No help, variable specified on the command line.
 WEST_PYTHON:UNINITIALIZED=C:/Users/eveko/AppData/Local/Programs/Python/Python314/python.exe
@@ -82,7 +100,7 @@ WEST_PYTHON:UNINITIALIZED=C:/Users/eveko/AppData/Local/Programs/Python/Python314
 ZEPHYR_BASE:PATH=D:/Git/crosses/zmk-for-crosses46-dual/zephyr
 
 //The directory containing a CMake configuration file for Zephyr-sdk.
-Zephyr-sdk_DIR:PATH=Zephyr-sdk_DIR-NOTFOUND
+Zephyr-sdk_DIR:PATH=D:/Downloads/zephyr-sdk-1.0.0-beta1/cmake
 
 //The directory containing a CMake configuration file for ZephyrAppConfiguration.
 ZephyrAppConfiguration_DIR:PATH=ZephyrAppConfiguration_DIR-NOTFOUND
@@ -100,6 +118,8 @@ Zephyr_DIR:PATH=D:/Git/crosses/zmk-for-crosses46-dual/zephyr/share/zephyr-packag
 
 //The application configuration folder
 APPLICATION_CONFIG_DIR:INTERNAL=D:/Git/crosses/zmk-for-crosses46-dual/zmk/app
+//DT bindings root directories
+CACHED_DTS_ROOT_BINDINGS:INTERNAL=D:/Git/crosses/zmk-for-crosses46-dual/zmk-pmw3610-driver/dts/bindings;D:/Git/crosses/zmk-for-crosses46-dual/zmk-report-rate-limit/dts/bindings;D:/Git/crosses/zmk-for-crosses46-dual/zmk-input-processor-xyz/dts/bindings;D:/Git/crosses/zmk-for-crosses46-dual/zmk-rgbled-widget/dts/bindings;D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/module/dts/bindings;D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/dts/bindings;D:/Git/crosses/zmk-for-crosses46-dual/zephyr/dts/bindings
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=d:/Git/crosses/zmk-for-crosses46-dual/build/crosses_right
 //Major version of cmake used to create the current loaded cache
@@ -139,6 +159,10 @@ CMAKE_ROOT:INTERNAL=C:/Program Files/CMake/share/cmake-4.2
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/eveko/AppData/Local/Programs/Python/Python314/python.exe][found components: Interpreter ][v3.14.2(3.8)]
 //West
 WEST:INTERNAL=C:/Users/eveko/AppData/Local/Programs/Python/Python314/python.exe;-m;west
+//Cached environment variable ZEPHYR_SDK_INSTALL_DIR
+ZEPHYR_SDK_INSTALL_DIR:INTERNAL=D:\Downloads\zephyr-sdk-1.0.0-beta1
+//Cached environment variable ZEPHYR_TOOLCHAIN_VARIANT
+ZEPHYR_TOOLCHAIN_VARIANT:INTERNAL=zephyr
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure

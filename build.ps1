@@ -28,6 +28,11 @@ if (-not $env:ZEPHYR_SDK_INSTALL_DIR) {
     }
     $env:ZEPHYR_SDK_INSTALL_DIR = (Resolve-Path -LiteralPath $defaultSdkPath).Path
 }
+
+$cmakeConfig = Join-Path $env:ZEPHYR_SDK_INSTALL_DIR "cmake/Zephyr-sdkConfig.cmake"
+if (-not (Test-Path -LiteralPath $cmakeConfig)) {
+    throw "Zephyr SDK at '$($env:ZEPHYR_SDK_INSTALL_DIR)' doesn't look valid (missing cmake/Zephyr-sdkConfig.cmake). Install Zephyr SDK 0.16.x+ and rerun."
+}
 Write-Host "Using Zephyr SDK at: $($env:ZEPHYR_SDK_INSTALL_DIR)" -ForegroundColor Yellow
 
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
