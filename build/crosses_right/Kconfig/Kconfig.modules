@@ -1,0 +1,174 @@
+menu "nanopb (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/nanopb)"
+osource "$(ZEPHYR_NANOPB_KCONFIG)"
+config ZEPHYR_NANOPB_MODULE
+	bool
+	default y
+endmenu
+menu "acpica (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/acpica)"
+osource "$(ZEPHYR_ACPICA_KCONFIG)"
+config ZEPHYR_ACPICA_MODULE
+	bool
+	default y
+endmenu
+menu "canopennode (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/canopennode)"
+osource "$(ZEPHYR_CANOPENNODE_KCONFIG)"
+config ZEPHYR_CANOPENNODE_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/cmsis)"
+osource "$(ZEPHYR_CMSIS_KCONFIG)"
+config ZEPHYR_CMSIS_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis-dsp (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/cmsis-dsp)"
+osource "$(ZEPHYR_CMSIS_DSP_KCONFIG)"
+config ZEPHYR_CMSIS_DSP_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis-nn (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/cmsis-nn)"
+osource "$(ZEPHYR_CMSIS_NN_KCONFIG)"
+config ZEPHYR_CMSIS_NN_MODULE
+	bool
+	default y
+endmenu
+menu "fatfs (D:/Git/crosses/zmk-for-crosses46-dual/modules/fs/fatfs)"
+osource "$(ZEPHYR_FATFS_KCONFIG)"
+config ZEPHYR_FATFS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_ambiq (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/ambiq)"
+osource "$(ZEPHYR_HAL_AMBIQ_KCONFIG)"
+config ZEPHYR_HAL_AMBIQ_MODULE
+	bool
+	default y
+endmenu
+menu "hal_espressif (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/espressif)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/espressif/zephyr/Kconfig"
+config ZEPHYR_HAL_ESPRESSIF_MODULE
+	bool
+	default y
+endmenu
+menu "hal_ethos_u (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/ethos_u)"
+osource "$(ZEPHYR_HAL_ETHOS_U_KCONFIG)"
+config ZEPHYR_HAL_ETHOS_U_MODULE
+	bool
+	default y
+endmenu
+menu "hal_gigadevice (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/gigadevice)"
+osource "$(ZEPHYR_HAL_GIGADEVICE_KCONFIG)"
+config ZEPHYR_HAL_GIGADEVICE_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nordic (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/nordic)"
+osource "$(ZEPHYR_HAL_NORDIC_KCONFIG)"
+config ZEPHYR_HAL_NORDIC_MODULE
+	bool
+	default y
+endmenu
+menu "hal_rpi_pico (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/rpi_pico)"
+osource "$(ZEPHYR_HAL_RPI_PICO_KCONFIG)"
+config ZEPHYR_HAL_RPI_PICO_MODULE
+	bool
+	default y
+endmenu
+menu "hal_telink (D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/telink)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/telink/Kconfig"
+config ZEPHYR_HAL_TELINK_MODULE
+	bool
+	default y
+endmenu
+menu "liblc3 (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/liblc3)"
+osource "$(ZEPHYR_LIBLC3_KCONFIG)"
+config ZEPHYR_LIBLC3_MODULE
+	bool
+	default y
+endmenu
+menu "littlefs (D:/Git/crosses/zmk-for-crosses46-dual/modules/fs/littlefs)"
+osource "$(ZEPHYR_LITTLEFS_KCONFIG)"
+config ZEPHYR_LITTLEFS_MODULE
+	bool
+	default y
+endmenu
+menu "lvgl (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/gui/lvgl)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/gui/lvgl/Kconfig"
+config ZEPHYR_LVGL_MODULE
+	bool
+	default y
+endmenu
+menu "mbedtls (D:/Git/crosses/zmk-for-crosses46-dual/modules/crypto/mbedtls)"
+osource "$(ZEPHYR_MBEDTLS_KCONFIG)"
+config ZEPHYR_MBEDTLS_MODULE
+	bool
+	default y
+endmenu
+menu "percepio (D:/Git/crosses/zmk-for-crosses46-dual/modules/debug/percepio)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/modules/debug/percepio/zephyr/Kconfig"
+config ZEPHYR_PERCEPIO_MODULE
+	bool
+	default y
+endmenu
+menu "picolibc (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/picolibc)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/picolibc/zephyr/Kconfig"
+config ZEPHYR_PICOLIBC_MODULE
+	bool
+	default y
+endmenu
+menu "segger (D:/Git/crosses/zmk-for-crosses46-dual/modules/debug/segger)"
+osource "$(ZEPHYR_SEGGER_KCONFIG)"
+config ZEPHYR_SEGGER_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-a (D:/Git/crosses/zmk-for-crosses46-dual/modules/tee/tf-a/trusted-firmware-a)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_A_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_A_MODULE
+	bool
+	default y
+endmenu
+menu "uoscore-uedhoc (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/uoscore-uedhoc)"
+osource "$(ZEPHYR_UOSCORE_UEDHOC_KCONFIG)"
+config ZEPHYR_UOSCORE_UEDHOC_MODULE
+	bool
+	default y
+endmenu
+menu "zcbor (D:/Git/crosses/zmk-for-crosses46-dual/modules/lib/zcbor)"
+osource "$(ZEPHYR_ZCBOR_KCONFIG)"
+config ZEPHYR_ZCBOR_MODULE
+	bool
+	default y
+endmenu
+menu "zmk-pmw3610-driver (D:/Git/crosses/zmk-for-crosses46-dual/zmk-pmw3610-driver)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/zmk-pmw3610-driver/Kconfig"
+config ZEPHYR_ZMK_PMW3610_DRIVER_MODULE
+	bool
+	default y
+endmenu
+menu "zmk-report-rate-limit (D:/Git/crosses/zmk-for-crosses46-dual/zmk-report-rate-limit)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/zmk-report-rate-limit/Kconfig"
+config ZEPHYR_ZMK_REPORT_RATE_LIMIT_MODULE
+	bool
+	default y
+endmenu
+menu "zmk-input-processor-xyz (D:/Git/crosses/zmk-for-crosses46-dual/zmk-input-processor-xyz)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/zmk-input-processor-xyz/Kconfig"
+config ZEPHYR_ZMK_INPUT_PROCESSOR_XYZ_MODULE
+	bool
+	default y
+endmenu
+menu "zmk-rgbled-widget (D:/Git/crosses/zmk-for-crosses46-dual/zmk-rgbled-widget)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/zmk-rgbled-widget/Kconfig"
+config ZEPHYR_ZMK_RGBLED_WIDGET_MODULE
+	bool
+	default y
+endmenu
+menu "module (D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/module)"
+osource "D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/module/Kconfig"
+config ZEPHYR_MODULE_MODULE
+	bool
+	default y
+endmenu
