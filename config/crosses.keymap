@@ -96,6 +96,11 @@
             slow-release;
             layers = <0>;
         };
+
+        lang_sh {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <36 50>;
+        };
     };
 
     keymap {
