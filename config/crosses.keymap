@@ -57,12 +57,18 @@
             bindings = <&kp LC(C)>;
             key-positions = <27 50>;
             layers = <0>;
+            slow-release;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <120>;
         };
 
         ctrl_v {
             bindings = <&kp LC(V)>;
             key-positions = <27 49>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <200>;
         };
     };
 
