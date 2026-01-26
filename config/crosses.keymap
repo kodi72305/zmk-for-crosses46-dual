@@ -78,6 +78,24 @@
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
+
+        win_v {
+            bindings = <&kp LG(V)>;
+            key-positions = <25 49>;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <200>;
+            slow-release;
+            layers = <0>;
+        };
+
+        f_layer {
+            bindings = <&mo 5>;
+            key-positions = <48 49>;
+            timeout-ms = <120>;
+            require-prior-idle-ms = <200>;
+            slow-release;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -130,6 +148,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        f_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
