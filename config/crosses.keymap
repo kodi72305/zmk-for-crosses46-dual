@@ -70,6 +70,14 @@
             timeout-ms = <120>;
             require-prior-idle-ms = <200>;
         };
+
+        num_lauer {
+            bindings = <&mo 3>;
+            key-positions = <50 49>;
+            layers = <0>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <100>;
+        };
     };
 
     keymap {
