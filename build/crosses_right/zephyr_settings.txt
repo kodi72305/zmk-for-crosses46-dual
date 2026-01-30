@@ -1,0 +1,21 @@
+# WARNING. THIS FILE IS AUTO-GENERATED. DO NOT MODIFY!
+#
+# This file contains build system settings derived from your modules.
+#
+# Modules may be set via ZEPHYR_MODULES, ZEPHYR_EXTRA_MODULES,
+# and/or the west manifest file.
+#
+# See the Modules guide for more information.
+"BOARD_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/gggw-zmk-keebs"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/atmel"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/espressif"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/gigadevice"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/nuvoton"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/modules/hal/stm32"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/zmk-pmw3610-driver"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/zmk-report-rate-limit"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/zmk-input-processor-xyz"
+"BOARD_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/zmk-rgbled-widget"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/zmk-rgbled-widget"
+"DTS_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/module"
+"MODULE_EXT_ROOT":"D:/Git/crosses/zmk-for-crosses46-dual/zmk/app/keymap-module"
