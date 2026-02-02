@@ -119,10 +119,10 @@
 
         support_layuer {
             bindings = <
-&trans  &kp N1  &trans  &trans     &trans     &trans  &trans          &trans          &trans           &trans     &bt BT_NXT        &bt BT_SEL 0
-&trans  &trans  &trans  &trans     &trans     &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP      &kp HOME   &kp DELETE        &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans          &msc MOVE_Y(5)  &msc MOVE_Y(-5)  &trans     &trans            &studio_unlock
+&trans  &kp N1  &trans  &trans     &trans     &trans  &trans          &trans          &trans          &trans     &bt BT_NXT        &bt BT_SEL 0
+&trans  &trans  &trans  &trans     &trans     &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP     &kp HOME   &kp DELETE        &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans          &msc SCRL_UP    &msc SCRL_DOWN  &trans     &trans            &studio_unlock
                         &trans     &trans     &trans  &kp LG(SPACE)   &trans          &trans
             >;
         };
