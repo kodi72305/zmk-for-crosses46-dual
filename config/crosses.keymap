@@ -32,7 +32,6 @@
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <0 1 2 4 5 3 12 13 14 15 16 17 29 28 27 26 25 24 36 37 38 39 40 41 48 49 50>;
-            hold-trigger-on-release;
         };
 
         hrm_left: hrm_left {
@@ -45,7 +44,6 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
-            hold-trigger-on-release;
             hold-trigger-key-positions = <47 7 20 9 21 33 33 46 34 22 10 11 23 35 45 8 32 44 43 42 30 31 19 18 6 51 52 53>;
         };
     };
