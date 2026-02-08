@@ -180,39 +180,3 @@
     };
 };
 
-&trackball_peripheral_listener {
-    status = "okay";
-    input-processors = <&zip_xy_scaler 9 20>;
-
-    scroller {
-        layers = <5>;
-        input-processors =
-            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_xy_scaler 1 32>,
-            <&zip_xy_to_scroll_mapper>;
-    };
-
-    sniper {
-        layers = <6>;
-        input-processors = <&zip_xy_scaler 1 4>;
-    };
-};
-
-&trackball_central_listener {
-    status = "okay";
-    device = <&trackball_central>;
-    input-processors = <&zip_xy_scaler 9 20>;
-
-    scroller {
-        layers = <5>;
-        input-processors =
-            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_xy_scaler 1 32>,
-            <&zip_xy_to_scroll_mapper>;
-    };
-
-    sniper {
-        layers = <6>;
-        input-processors = <&zip_xy_scaler 1 4>;
-    };
-};
