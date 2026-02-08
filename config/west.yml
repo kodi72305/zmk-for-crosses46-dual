@@ -10,8 +10,6 @@ manifest:
       url-base: https://github.com/lanyagagaga-droid
     - name: englmaxi
       url-base: https://github.com/englmaxi 
-    - name: ergohaven
-      url-base: https://github.com/ergohaven
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -23,9 +21,5 @@ manifest:
     - name: zmk-hid-trackball-interface
       remote: englmaxi
       revision: main
-    - name: ergohaven-zmk
-      remote: ergohaven
-      revision: main
-      import: config/west.yml
   self:
     path: config
