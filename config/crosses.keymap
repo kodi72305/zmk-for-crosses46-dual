@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
+#include "input_processors.dtsi"
+
 / {
     chosen { zmk,physical-layout = &gggw_crosses_54_layout; };
 
