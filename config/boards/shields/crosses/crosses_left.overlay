@@ -42,9 +42,6 @@
 // Overrides for the input-split child node
 &trackball_peripheral_split {
   device = <&trackball_peripheral>;
-  input-processors
-    = <&zip_xy_to_scroll_mapper>
-		, <&zip_ble_report_rate_limit>;
 };
 
 &pro_micro_i2c {
@@ -102,13 +99,5 @@
         // snipe-layers = <1>;
         // scroll-layers = <2 3>;
         // automouse-layer = <4>;
-    };
-};
-
-/ {
-    trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-        status = "okay";
     };
 };
