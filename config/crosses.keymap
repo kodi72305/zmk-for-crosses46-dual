@@ -194,14 +194,19 @@
     };
 };
 
-&trackball_listener {
-    input-processors = <&zip_xy_scaler 9 20>;
+/
+{
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+        input-processors = <&zip_xy_scaler 9 20>;
 
-    scroller {
-        layers = <6>;
-        input-processors =
-            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_xy_scaler 1 32>,
-            <&zip_xy_to_scroll_mapper>;
+        scroller {
+            layers = <6>;
+            input-processors =
+                <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
+                <&zip_xy_scaler 1 32>,
+                <&zip_xy_to_scroll_mapper>;
+        };
     };
 };
